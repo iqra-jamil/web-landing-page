@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <section>
+      <div class="navBar" data-aos="fade-up" data-aos-delay="50">
+        <div class="container1">
+          <img src="logo.png" alt="logo" />
+
+          <div class="menu-items">
+            <i class="fa-solid fa-bars"></i>
+            <p id="p1">Home</p>
+            <p id="p2">Menu</p>
+            <p id="p3">Shop</p>
+            <p id="p4">Services</p>
+          </div>
+          <div class="two-icons">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="btns">
+            <button id="btn1">
+              <i class="fa-regular fa-user"></i><span>SignUp</span>
+            </button>
+            <button id="btn2">
+              <i class="fa-solid fa-right-to-bracket"></i><span>Login</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--content-->
+    <section>
+      <div class="container2" >
+        <p id="para1">
+          Order Your <br />
+          <span>favourite foods</span>
+        </p>
+        <p id="para2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Id quaerat aspernatur unde quasi? Rem ipsam eaque ducimus magni<br />
+          fugiat sit, facere voluptas deleniti perferendis laboriosam possimus
+          Lorem ipsum asperiores <br />
+          quo nam ipsa rerum<b> quae maiores!</b>
+        </p>
+        <p id="para3">TotalOrder:$24.50</p>
+
+        <button id="btn3">
+          <i class="fa-solid fa-arrow-right"></i>Buy Now
+        </button>
+
+        <img src="5.png" class="mainImg"/>
+
+        <div class="backbox">
+          <p>Salad <i class="fa-solid fa-star"></i>4.7</p>
+          <span><i class="fa-regular fa-clock"></i>10-18mins</span>
+        </div>
+        <div class="ratingSystem">
+          <p>Raiting :</p>
+          <div class="fiveStars">
+            <i class="fa-solid fa-star" data-rating="1"></i>
+            <i class="fa-solid fa-star" data-rating="2"></i>
+            <i class="fa-solid fa-star" data-rating="3"></i>
+            <i class="fa-solid fa-star" data-rating="4"></i>
+            <i class="fa-solid fa-star" data-rating="5"></i>
+          </div>
+          <div class="msg">poor</div>
+        </div>
+      </div>
+    </section>
+    <!--imagSlider-->
+    <section>
+      <div class="container3">
+        <i class="fa-solid fa-arrow-left" id="nextArrow"></i>
+        <div class="corner">
+          <div class="sliderContainer">
+            <div class="sliderImage">
+              <div class="image">
+                <img src="1.png">
+              </div>
+              <span>Burger</span>
+              <p>$3.35</p>
+            </div>
+            <div class="sliderImage">
+              <div class="image">
+                <img src="2.png">
+              </div>
+              <span>Pizza</span>
+              <p>$3.35</p>
+            </div>
+            <div class="sliderImage">
+              <div class="image">
+                <img src="3.png">
+              </div>
+              <span>Shwarma</span>
+              <p>$3.35</p>
+            </div>
+            <div class="sliderImage">
+              <div class="image">
+                <img src="4.png">
+              </div>
+              <span>Burger</span>
+              <p>$3.35</p>
+            </div>
+            <div class="sliderImage">
+              <div class="image">
+                <img src="5.png">
+              </div>
+              <span>Salad</span>
+              <p>$3.35</p>
+            </div>
+            <div class="sliderImage">
+              <div class="image">
+                <img src="2.png">
+              </div>
+              <span>Pizza</span>
+              <p>$3.35</p>
+            </div>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right" id="prevArrow"></i>
+      </div>
+    </section>
+    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+   <script src="app.js"></script>
+   <script>
+    AOS.init();
+  </script>
+  </body>
+</html>

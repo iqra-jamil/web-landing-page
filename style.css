@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  body {
+    background-image: url(bg.png);
+    background-size: cover;
+    color: black;
+  }
+  .navBar {
+    padding: 0 100px;
+  }
+  
+  .container1 {
+    display: flex;
+    background: rgba(0 0 0 0.8);
+    backdrop-filter: saturate(100%) blur(5px);
+    margin-top: 5px;
+    height: 70px;
+    min-width: 70%;
+    border: 2px solid rgb(231, 68, 19);
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .container img {
+    height: 50px;
+    width: 70px;
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+  .menu-items {
+    display: flex;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .menu-items :hover{
+    color:rgb(231, 68, 19) ;
+    
+  text-decoration: underline;
+  }
+  .menu-items .fa-solid:hover{
+    text-decoration: none;
+    
+    color:rgb(231, 68, 19) ;
+  }
+  
+  .menu-items p {
+    margin-left: 20px;
+  }
+  .two-icons {
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+  }
+  .two-icons:hover{
+    color:rgb(231, 68, 19) ;
+  }
+  .fa-solid {
+    margin-left: 15px;
+  }
+  .btns {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 15px;
+    height: 30px;
+  }
+  
+  .btns button {
+    min-width: 80px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .btns #btn1 {
+    background-color: rgb(231, 68, 19);
+    color: white;
+  }
+  
+  .btns #btn2 {
+    padding-right: 10px;
+    border: 2px solid rgb(231, 68, 19);
+  }
+  .btns #btn2:hover{
+    background-color: rgb(231, 68, 19);
+    color: white;
+  }
+  
+  .container2 {
+    padding: 10px 80px;
+    margin-top: 30px;
+  }
+  .container2 #para1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(231, 68, 19);
+  
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .container2 span {
+    color: gray;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  .container2 #para2 {
+    line-height: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: gray;
+  }
+  .container2 b {
+    color: black;
+  }
+  .container2 #para3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .container2 #btn3 {
+    background-color: rgb(231, 68, 19);
+    height: 30px;
+    min-width: 80px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+  .container2 img {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    z-index: 2;
+  }
+  .backbox {
+    position: absolute;
+    left: 55%;
+    padding: 100px 45px 45px 45px;
+  
+    background-color: rgb(231, 68, 19);
+    height: 230px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .backbox:hover{
+    height:200px ;
+  }
+  .backbox span {
+    color: white;
+    background-color: black;
+    height: 90px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .ratingSystem {
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    color: white;
+  }
+  .ratingSystem p {
+    padding-left: 20px;
+  }
+  
+  
+  .ratingSystem .fiveStars i {
+    margin: 0px 1px;
+    color: white;
+  }
+  .ratingSystem .fiveStars i.selected {
+    
+    color: gold;
+  }
+  .container3 .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    overflow: hidden;
+    
+  }
+  .container3 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 64px;
+    left: -12rem
+    
+  } 
+  
+   
+  .container3 .corner{
+    display: flex;
+    overflow: hidden;
+    border: 2px  solid rgb(231, 68, 19);
+    border-radius: 20px;
+    width: 38%;
+    box-shadow: 0 12px 20px black;
+    
+  }
+  .container3 .sliderContainer{
+    display: flex;
+    width: 100%;
+    
+   
+  }
+   
+  .sliderImage{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 18px;
+    height: 8rem;
+    width: 6rem;
+    box-shadow: 0 0 10px black;
+   
+   }
+   .container3 .fa-solid{
+    
+     color: black;
+     margin: 12px ;
+   }
+   
+   
